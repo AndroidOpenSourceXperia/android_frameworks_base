@@ -2274,6 +2274,13 @@ public final class Settings {
         public static final String NOTIFICATION_LIGHT_PULSE = "notification_light_pulse";
 
         /**
+         * Whether the Illumination Bar should light up on hardware key press
+         * events. The value is boolean (1 or 0).
+         * @hide
+         */
+        public static final String ILLUMINATION_BAR = "illumination_bar";
+
+        /**
          * Show pointer location on screen?
          * 0 = no
          * 1 = yes
